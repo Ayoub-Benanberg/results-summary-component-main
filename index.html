@@ -18,7 +18,8 @@
       <div class="col-8">
         <div class="row d-flex justify-content-center">
 
-          <div class="col-lg-5 text-white p-4 shadow" style="background:linear-gradient(to bottom, #5c3dfb 0%, #4132ef 100%)" id="firstCol">
+          <div class="col-lg-5 text-white p-4 shadow"
+            style="background:linear-gradient(to bottom, #5c3dfb 0%, #4132ef 100%)" id="firstCol">
             <p class="text-center text-light result fw-semibold">Your Result</p><br>
             <div class="col d-flex justify-content-center mb-4">
               <div class="row d-flex flex-column cercle shadow rounded-circle justify-content-center ">
@@ -35,22 +36,43 @@
 
 
           </div>
-          <div class="col-lg-5 shadow" id="secondCol">
-            Summary
+          <div class="col-lg-5 shadow p-4 " id="secondCol">
+            <p class="result fw-bold" style="color:hsl(227.14deg 20% 27.45%)">Summary</p>
+            <div class="row d-flex flex-column justify-content-center ">
+              <div class="col-11 p-3 mb-2  d-flex justify-content-between align-content-center br1">
+                <div style="color: hsl(358.36deg 64.71% 66.67%);font-size:1.2em;" class="fw-medium"><img
+                    src="../results-summary-component-main/assets/images/icon-reaction.svg" alt="reaction icon"
+                    class="px-2">Reaction
+                </div>
+                <div class="fw-bold pt-1 "><span>80 </span><span style="color: hsl(256.36deg 5.31% 59.41%);">/
+                    100</span></div>
+              </div>
 
-            Reaction
-            80 / 100
+              <div class="col-11 p-3 mb-2  d-flex justify-content-between align-content-center br1">
+                <div style="color:hsl(40.96deg 87.43% 62.55%);font-size:1.2em;" class="fw-medium"><img
+                    src="../results-summary-component-main/assets/images/icon-memory.svg" alt="reaction icon"
+                    class="px-2">Memory
+                </div>
+                <div class="fw-bold pt-1 "><span>92 </span><span style="color: hsl(256.36deg 5.31% 59.41%);">/
+                    100</span></div>
+              </div>
+              <!--     <div>Memory</div>
+                <div>92 / 100</div>
+              </div>    -->
 
-            Memory
-            92 / 100
+              <div class="col-11 p-3 mb-2 d-flex justify-content-between align-content-center br">
+                <div>Verbal</div>
+                <div>61 / 100</div>
+              </div>
 
-            Verbal
-            61 / 100
+              <div class="col-11 p-3 mb-2 d-flex justify-content-between align-content-center br">
+                <div>Visual</div>
+                <div>72 / 100</div>
+              </div>
 
-            Visual
-            72 / 100
-
-            Continue
+              <div class="col-11 p-3 mb-2 d-flex justify-content-between align-content-center br">Continue
+              </div>
+            </div>
           </div>
         </div>
       </div>

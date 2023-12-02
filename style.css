@@ -19,3 +19,7 @@
 .seven{
     font-size: 3em;
 }
+.br1{
+    background-color: hsl(6deg 100% 98.04%);
+    border-radius: 18px;
+}
