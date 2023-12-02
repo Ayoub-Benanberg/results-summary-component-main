@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#firstCol{
+    border-radius: 25px;
+}
+#secondCol{
+    border-radius: 25px;
+}
+.result{
+    font-size: 1.2em;
+    color: #8569fd;
+}
+.cercle{
+    background-color:#472ada;
+    width: 55%;
+}
+.seven{
+    font-size: 3em;
+}
