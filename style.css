@@ -17,9 +17,25 @@
     width: 55%;
 }
 .seven{
-    font-size: 3em;
+    font-size: 3.5em;
 }
 .br1{
     background-color: hsl(6deg 100% 98.04%);
     border-radius: 18px;
+}
+
+.br{
+    background-color: hsl(173.33deg 52.94% 96.67%);
+    border-radius: 18px;
+}
+.brc{
+    border-radius: 20px;
+    background-color: hsl(223.9deg 29.93% 26.86%);
+}
+
+.brc:hover{
+
+    background-color: hsl(245.45deg 86.98% 57.84%);
+    transition: background-color 0.5s;
+
 }
