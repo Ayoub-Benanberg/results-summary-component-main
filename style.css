@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+.container{
+    margin-top: 85px;
+}
+
+
 #firstCol{
     border-radius: 25px;
 }
